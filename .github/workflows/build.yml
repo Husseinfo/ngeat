@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        github_access_token: ${{ secrets.ACCESS_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}
     - name: Build Angular
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
       with:
