@@ -1,0 +1,16 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>{{this.fact.title}}</mat-card-title>
+    <mat-card-subtitle>{{this.fact.subtitle}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="fact.image" alt="Image">
+  <mat-card-content>
+    <p>
+      {{this.fact.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-stroked-button [href]="fact.url">Learn More</a>
+    <button mat-flat-button>Share</button>
+  </mat-card-actions>
+</mat-card>

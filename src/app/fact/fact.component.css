@@ -1,0 +1,9 @@
+.card {
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-image {
+  background-size: cover;
+}
