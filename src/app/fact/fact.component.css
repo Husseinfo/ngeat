@@ -1,9 +1,25 @@
-.card {
+mat-card-title {
+  height: 90px;
+}
+
+mat-card {
   max-width: 400px;
+  height: 700px;
   padding: 10px;
   margin: 10px;
 }
 
+mat-card-content {
+  height: 300px;
+  overflow: scroll;
+}
+
+.card {
+  display: inline-block;
+}
+
 .header-image {
   background-size: cover;
+  height: 200px;
+  width: auto;
 }

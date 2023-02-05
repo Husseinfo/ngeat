@@ -4,6 +4,12 @@
 
 <img src="./scr.png" alt="screenshot">
 
+# Plan
+## Features
+- [ ] Fact sharing
+- [ ] Tags
+- [ ] Search
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
 ## Development server
